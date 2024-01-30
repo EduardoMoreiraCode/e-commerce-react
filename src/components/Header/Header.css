@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    flex-shrink: 0;
+    background: #34005C;
+}
+
+.header-title {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 33px;
+}
+
+.header-menu-icon {
+    height: 48px;
+    width: 48px;
+    margin-right: 33px;
+}
