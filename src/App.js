@@ -7,9 +7,9 @@ function App() {
     <div>
       <Header></Header>
       <div className='destaques-text'>
-        <span>Destaques</span>
+        <span>destaques</span>
       </div>
-      <Highlights />
+      <Highlights/>
     </div>  
   );
 }

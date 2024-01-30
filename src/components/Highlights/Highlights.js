@@ -4,6 +4,9 @@ import './Highlights.css';
 import nikeOne from '../../assets/images/nike1.png'
 import nike2 from '../../assets/images/nike2.png';
 import basketShoe from '../../assets/images/basket-shoe.png';
+import orangeNike from '../../assets/images/orange-nike.png';
+import adidasGreen from '../../assets/images/green-white-adidas.png';
+import casualSport from '../../assets/images/SportCasual.png';
 
 const Highlights = () => {
   return (
@@ -39,8 +42,17 @@ const Highlights = () => {
         <div className='high-item'>
           <Card>
             <div className='card-content'>
-              <img className='high-image' src={nikeOne} alt='Nike One'/>
-              <span className='card-text'>Nike Air White Plus</span>
+              <img className='high-image' src={adidasGreen} alt='Adidas Green-White SportsRace'/>
+              <span title='Adidas Green-White SportsRace' className='card-text'>Adidas Green-White SportsRace</span>
+            </div>
+          </Card>
+        </div>
+      
+        <div className='high-item'>
+          <Card>
+            <div className='card-content'>
+              <img className='high-image' src={orangeNike} alt='Nike Casual-Social Orange-White'/>
+              <span title='Nike Casual-Social Orange-White' className='card-text'>Nike Casual-Social Orange-White</span>
             </div>
           </Card>
         </div>
@@ -48,8 +60,8 @@ const Highlights = () => {
         <div className='high-item'>
           <Card>
             <div className='card-content'>
-              <img className='high-image' src={nikeOne} alt='Nike One'/>
-              <span className='card-text'>Nike Suns 2TS</span>
+              <img className='high-image' src={casualSport} alt='Nike Beige Sport Casual'/>
+              <span title='Nike Beige Sport Casual' className='card-text'>Nike Beige Sports</span>
             </div>
           </Card>
         </div>
