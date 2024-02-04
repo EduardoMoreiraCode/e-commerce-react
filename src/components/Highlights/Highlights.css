@@ -4,7 +4,6 @@
     display: flex;
     gap: 20px;
     overflow-x: auto;
-    scrollbar-width: thin;
 }
 
 .highs::-webkit-scrollbar {
@@ -40,4 +39,13 @@
     line-height: normal;
     
     white-space: nowrap;
+}
+
+.high-item1, .high-item {
+    transition: 0.2s;
+}
+
+.high-item1:hover, .high-item:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
