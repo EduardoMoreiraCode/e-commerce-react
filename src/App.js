@@ -6,9 +6,6 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <div className='destaques-text'>
-        <span>destaques</span>
-      </div>
       <Highlights/>
     </div>  
   );
