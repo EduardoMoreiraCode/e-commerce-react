@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
+* {
+  user-select: none;
+}
+
 .destaques-text {
   color: #626262;
   font-family: 'Poppins', sans-serif;
