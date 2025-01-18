@@ -25,9 +25,18 @@
     display: none;
 }
 
-.high-item1 {
-    margin-left: 7px;
+/* .high-item1 {
+    margin-left: 20px;
+} */
+
+.high-item:first-child {
+    margin-left: 20px;
 }
+
+.high-item:last-child {
+    margin-right: 30px;
+}
+
 
 .high-image {
     width: 137px;
@@ -39,7 +48,8 @@
 
 .card-content {
     
-    margin-left: 7px;
+    /* margin-left: 7px; */
+    text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -63,4 +73,38 @@
 .high-item1:hover, .high-item:hover {
     transform: scale(1.1);
     transition: 0.2s;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .high-image {
+        width: 274px;
+        height: 274px;
+    }
+
+    .card-text {
+        font-size: 24px;
+    }
+
+    .highs {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .high-item {
+        margin-left: 20px;
+    } /*versao para computador: margem esquerda para todos os elementos IMPORTANTE!*/
+
+    /* .high-item:first-child {
+        margin-left: 20px;
+    } */
+
+    .high-item:last-child {
+        margin-right: 0; /*Removendo a margem direita do ultimo elemento*/
+    }
+
+    .destaques-text {
+        font-size: 24px;
+    }
 }

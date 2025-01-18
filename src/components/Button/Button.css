@@ -17,3 +17,13 @@ a {
     padding: 10px 0;
     font-size: 14px;
 }
+
+@media screen and (min-width:600px) {
+    .button {
+        width: 260px;
+    }
+
+    .text-button {
+        font-size: 28px;
+    }
+}
